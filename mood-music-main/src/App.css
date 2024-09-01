@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG11c2ljJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover; /* Ensures the background covers the entire body */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+
+/* Media query for small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: auto; /* Adjusts background to auto to fit smaller screens */
+  }
+}
+
+/* Media query for medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    background-size: cover; /* Adjusts background to cover for tablets */
+  }
+}
+
+/* Media query for large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  body {
+    background-size: cover; /* Ensures the background covers the entire body */
+  }
+}
